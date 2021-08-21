@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+
+    width: 70%;
+    margin: 0 auto;
+}
+#header{
+    background-color: #1c1f33;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.header-top{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    line-height: 60px;  
+}
+.home a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 26px;
+}
+.home__right-title{
+    color: rgb(71, 114, 206);
+    font-size: 16px;
+}
+.home__right-sub{
+    color: #fff;
+    font-size: 16px;
+}
+.content{
+    background-color: #141728;
+    padding-top: 50px;
+    margin-top: 60px;
+}
+.list-music__title{
+    color: #57c7ea;
+    margin: 20px 0;
+    display: block;
+    font-size: 20px;
+}
+.list-music__item{
+    padding: 0 10px;
+    width: 25%;
+}
+.list-music__item-img{
+    border-radius: 6px;
+    width: 100%;
+    overflow: hidden;
+    transition: all ease-in 0.2s;
+}
+.list-music__item-img:hover{
+    transform: scale(1.07);
+    
+}
+.list-music__item-name{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    padding: 3px 0;
+}
+.list-music__item-singer{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.music-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Pagination{
+    text-align: center;
+    color: #fff;
+    padding:40px 0;
+}
+.Pagination-item{
+    padding: 10px;
+    cursor: pointer; 
+}
+.Pagination-item:hover{
+  background-color: rgb(71, 114, 206);
+}
+.Pagination-item--active{
+    background-color: rgb(20, 21, 97);
+
+}
+.trending{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.trending__title{
+    font-size: 30px;
+    line-height: 1.6;
+    padding: 10px 0;
+    color: #57c7ea;
+}
+.trending h3{
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.6;
+    padding: 8px 0;
+}
+.trending h4{
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.6;
+    padding: 2px;
+    font-weight: 400;
+}
+.trending p{
+    font-size: 14px;
+    color: #fff;
+    padding: 0 10px;
+    width: 58%;
+    margin: 0 auto;
+    font-weight: 400;
+    line-height: 1.6;
+
+}
+#footer{
+    background-color: #141728;
+    padding: 20px 0;
+
+}
+.footer-info{
+    display: flex;
+}
+.footer__stations{
+    flex:1;
+   
+    
+}
+#footer h3{
+    font-size: 18px;
+    color: #57c7ea;
+    padding: 8px 0;
+}
+#footer p{
+    font-size: 16px ;
+    color: #fff;
+    line-height: 1.4;
+    padding: 4px 0;
+}
+#footer a{
+    text-decoration: none;
+    color: rgb(33, 16, 192);
+}
+
+.footer__dowload{
+    flex: 1;
+    padding: 0 15px;
+}
+.footer__dowload img{
+    width: 150px;
+    border-radius: 5px;
+    height: 40px;
+    
+}
+.footer__contact{
+    flex:1;
+
+}

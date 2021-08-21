@@ -1,0 +1,24 @@
+.album_music{
+    text-align: center;
+}
+.title-music{
+    color: #57c7ea;
+    font-size: 30px;
+    padding: 20px 0;
+}
+.singer{
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 0;
+}
+.lyric{
+    width: 20%;
+    color: #fff;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+.lyric span{
+    font-size: 18px;
+}
